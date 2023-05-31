@@ -1,7 +1,7 @@
 package org.example.D0526;
 
 import java.util.ArrayDeque;
-import java.util.LinkedList;
+import java.util.Arrays;
 import java.util.Queue;
 
 public class Q1091 {
@@ -49,6 +49,7 @@ public class Q1091 {
         };
         int res = new Solution().shortestPathBinaryMatrix(ints);
         System.out.println("res = " + res);
+        System.out.println(Arrays.toString("&".split("&")));
     }
 
 }
